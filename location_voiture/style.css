@@ -1,0 +1,116 @@
+
+* {box-sizing: border-box}
+.menu
+{ 
+    background-image: url(img/0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+  
+}
+/*******caracterisque CSS commun********/
+.colorWhite
+{
+    color: white;
+}
+.textCenter
+{
+    text-align: center;
+}
+.h4
+{
+    font-weight: bold;
+}
+/*************header**********************/
+.menuNav
+{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(223, 222, 222, 0.5);
+    position: relative;
+    top: 14rem;
+   
+  
+}
+.btn-primary  
+{
+    background-color: rgba(70, 219, 70, 0.5);
+    border: 1px solid;
+    width: 100%;
+}
+.form-group
+{
+    margin-top: 1rem;
+}
+/*.navbar
+{
+    background-color:rgba(238, 234, 234,0.2)!important;
+}*/
+
+/*************fin header**************/
+/*****************main body***************/
+main
+{
+    width: 70%;
+    margin: 2rem auto;
+    min-height: 40vh;
+  
+}
+#cacher
+{
+    display: none;
+}
+.btn-reserver
+{
+    background-color: green;
+    color: white;
+}
+.imagesVoiture
+{
+   
+    position: relative;
+  
+  
+}
+img
+{
+    vertical-align: middle; 
+   
+}
+.mySlides1, .mySlides2, .mySlides3, .mySlides4,.mySlides5, .mySlides6, .mySlides7, .mySlides8 {display: none}
+
+.precedent, .suivant {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+  }
+
+  .suivant {
+    right: 0;
+  }
+/*****footer*****/
+
+footer
+{
+    margin-top: 5rem;
+}
+@media (max-width: 570px)
+{
+    .menuNav
+{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(223, 222, 222, 0.5);
+    position: relative;
+    top: 2rem;
+   
+  
+}
+
+}
