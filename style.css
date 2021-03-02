@@ -82,6 +82,7 @@ body
     /**margin-top: -20px;**/
     font-weight: bold;
     background-size: cover;
+    
 
 }
 .mesSections
@@ -293,9 +294,6 @@ body
 @media screen and (max-width:767px)
 {
    
-
-
-    
     #menuParcours div
     {
         flex-direction: column;
@@ -326,7 +324,13 @@ body
         width: 100%;
        padding: 8px;
     }
-
+    #titre2
+    {
+        font-size: 3rem;
+       
+        
+    
+    }
     
 
     /* CONTACT*/
@@ -360,6 +364,8 @@ body
     {
         width: 100%;
     }
+
+    nav-item
     
 
 }
