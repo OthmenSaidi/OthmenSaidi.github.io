@@ -40,7 +40,10 @@ body
     background-color: #222733;
    
 }
-
+body::-webkit-scrollbar 
+{
+    display: none;
+}
 .container
 {
    /** background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);***/
@@ -88,6 +91,21 @@ body
 .mesSections
 {
     min-height: 35rem;
+}
+.carousel-caption p
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-emphasis: center; 
+}
+
+.visit-button a
+{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:#d06503 ;
+    
 }
 
 #menuPortfolio
@@ -306,7 +324,18 @@ body
         min-height: 100vh;
         width: 100%;
     }
-
+    .carousel-caption p
+    {
+        font-size: 1rem;
+        
+    }
+    
+    .visit-button a
+    {
+        text-decoration: none;
+        font-size: 1rem;
+        
+    }
     #menuParcours article
     {
         width: 100%;
@@ -364,8 +393,18 @@ body
     {
         width: 100%;
     }
-
-    nav-item
+    .carousel-caption p
+    {
+        font-size: 0.8rem;
+        
+    }
+    
+    .visit-button a
+    {
+        text-decoration: none;
+        font-size: 0.8rem;
+        
+    }
     
 
 }
