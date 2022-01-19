@@ -1,0 +1,404 @@
+
+
+/*******************header*********************/
+
+
+/*************************NAV BAR*******************/
+.maNav
+{
+    background-color:#525E65;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    
+  
+}
+
+nav
+{
+    background-color:#525E65;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    font-size: 1.3rem;
+    min-height: 15vh;
+    text-align: center;
+    margin-bottom: 2rem;
+    
+
+}
+
+.menu1
+{
+    font-family:'Pacifico', cursive;
+    
+}
+
+
+
+/********************body*************************/
+body
+{
+    background-color: #222733;
+   
+}
+body::-webkit-scrollbar 
+{
+    display: none;
+}
+.container
+{
+   /** background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);***/
+    width: 80%;
+    min-height: 100vh;
+    position: relative;
+    /*margin-top: 6rem;*/
+    font-family: 'Oswald', sans-serif !important;
+ 
+   
+
+}
+.presentation
+{
+    min-height: 70vh;
+    width: 100%;
+    flex-direction: column;
+    color:#EE7960;
+    
+
+}
+.titre1
+{
+    margin-bottom: 0;
+    text-align: start;
+}
+
+#titre2
+{
+    /*min-height: 15vh;*/
+   
+    background: url(img/rainbow-nebula.jpg) no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    display:block;
+    font-size: 8rem;
+    font-family: arial;
+    text-align: center;
+    /**margin-top: -20px;**/
+    font-weight: bold;
+    background-size: cover;
+    
+
+}
+.mesSections
+{
+    min-height: 35rem;
+}
+.carousel-caption p
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-emphasis: center; 
+}
+
+.visit-button a
+{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:#d06503 ;
+    
+}
+
+#menuPortfolio
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    padding: 60px;
+    border-radius: 20px;
+    color: white;
+    border:  3px solid #d06503;
+  
+}
+
+#menuPortfolio h2
+{
+    text-align: center;
+    position: relative;
+    min-height: 4rem;
+    color: #d06503;
+}
+#menuPortfolio  h2::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    width: 16rem;
+    height: 4px;
+    margin-left: -8rem;
+    margin-top: 1rem;
+    background-color: #d06503;
+}
+#menuApropos
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    padding: 60px;
+    border-radius: 20px;
+    color: white;
+    border: 3px solid orangered;
+}
+
+#menuApropos h2
+{
+    text-align: center;
+    position: relative;
+    min-height: 4rem;
+    color: orangered;
+}
+#menuApropos  h2::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    width: 16rem;
+    height: 4px;
+    margin-left: -8rem;
+    margin-top: 1rem;
+    background-color: orangered;
+}
+
+#menuParcours
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 20px;
+    color: white;
+
+}
+#menuParcours div
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#menuParcours div span
+{
+    font-weight: bold;
+}
+#menuParcours h2, #menuParcours h3
+{
+    text-align: center;
+    position: relative;
+    min-height: 4rem;
+    color: #0fbcc3;
+}
+#menuParcours  h2::after {
+    content: '';
+    display: block;
+    position: absolute;
+  
+    left: 50%;
+    width: 16rem;
+    height: 4px;
+    margin-left: -8rem;
+    margin-top: 1rem;
+    background-color: #0fbcc3;
+}
+#menuParcours article
+{
+    width: 45%;
+    
+    padding: 0 10px 0;
+    border-radius: 20px;
+    border: 3px solid #0fbcc3;
+   
+}
+#menuContact
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    padding: 60px;
+    border-radius: 20px;
+    color: white;
+    border:3px solid rgb(142, 106, 241);
+}
+#menuContact h2
+{
+    text-align: center;
+    position: relative;
+    min-height: 4rem;
+    color:  rgb(142, 106, 241);
+}
+#menuContact  h2::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    width: 16rem;
+    height: 4px;
+    margin-left: -8rem;
+    margin-top: 1rem;
+    background-color: rgb(142, 106, 241);
+}
+
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:#d06503;
+    position: relative;
+    top: 4rem;
+  }
+  
+#myCarousel h5,#myCarousel p
+{
+    color: #d06503!important;
+}
+
+.carousel-control-prev, .carousel-control-next
+{
+    background-color: #d06503;
+    width: 5%
+}
+
+
+
+
+  .gmail
+{
+    background-image: url('img/mailimage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+.github
+{
+    background-image: url('img/github.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.linkedin
+{
+    background-image: url('img/linkedin.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/**********footer******************/
+.footer
+{
+ 
+    text-align: center;
+    font-size: 1.3rem;
+    min-height: 15vh;
+    background-color:#525E65;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    color: white;
+    margin-top: 2rem;
+}
+
+
+/*********************************** <= 768px **********************************/
+@media screen and (max-width:767px)
+{
+   
+    #menuParcours div
+    {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    
+    }
+    .mesSections
+    {
+        min-height: 100vh;
+        width: 100%;
+    }
+    .carousel-caption p
+    {
+        font-size: 1rem;
+        
+    }
+    
+    .visit-button a
+    {
+        text-decoration: none;
+        font-size: 1rem;
+        
+    }
+    #menuParcours article
+    {
+        width: 100%;
+    }
+    /*PORTFOLIO*/
+    #menuPortfolio
+    {
+        width: 100%;
+        padding: 8px;
+    }
+
+    /* A PROPOS*/
+    #menuApropos
+    {
+        width: 100%;
+       padding: 8px;
+    }
+    #titre2
+    {
+        font-size: 3rem;
+       
+        
+    
+    }
+    
+
+    /* CONTACT*/
+
+    .contact
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+  
+
+/*********************************** <= 423px **********************************/
+@media screen and (max-width:423px)
+
+{
+    
+     
+    /* PARTIE PARCOURS */
+    #menuParcours div
+    {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    
+    }
+    #menuParcours article
+    {
+        width: 100%;
+    }
+    .carousel-caption p
+    {
+        font-size: 0.8rem;
+        
+    }
+    
+    .visit-button a
+    {
+        text-decoration: none;
+        font-size: 0.8rem;
+        
+    }
+    
+
+}

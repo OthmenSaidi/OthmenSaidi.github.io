@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="voici mon portfolio">
+  <meta name="author" content="Othmen SAIDI">
+
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Mon Portfolio</title>
+</head>
+
+<body>
+  <header class="fluid-container">
+    <div class="maNav">
+      <nav class="row navbar navbar-dark navbar-expand-md">
+        <div class="col-md-6">
+          <a class="navbar-brand menu1" href="#menuAccueil">Othmen</a>
+          <button class="navbar-toggler btn btn-outline-light mx-auto text-nowrap " type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class=" collapse navbar-collapse mx-auto" id="navbarSupportedContent">
+          <ul class="navbar-nav justify-content-around align-items-center">
+            <li class="nav-item">
+              <a class="nav-link menu2" href="#menuApropos">A propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu3" href="#menuPortfolio">Portfolio </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu4" href="#menuParcours">Parcours</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu5" href="#menuContact">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="row presentation">
+      <div class="col-md-6">
+        <h2 class="titre1">BONJOUR <br>BIENVENUE SUR MON SITE, JE SUIS </h2>
+      </div>
+
+      <div class="col-md-12 align-self-center">
+        <div id="titre2"> Développeur Web </div>
+      </div>
+
+    </section>
+
+    <section class="mesSections" id="menuApropos">
+
+      <h2>A propos</h2>
+      <p>Rien n'est figé dans la vie, tout est en perpétuelle évolution. Ceci m'amène à rester toujours curieux, à
+        apprendre et à progresser. Passionné par les nouvelles technologies,
+        j'ai entamé une reconversion en tant que développeur web après un parcours professionnel atypique.
+        Actuellement J'ai la chance d'intégrer une formation chez WEBFORCE3 afin de monter en compétences.</p>
+
+      <h2>compétences</h2>
+      <div class="row">
+        <ul class="col-md-10 d-flex flex-wrap justify-content-between list-unstyled competences">
+          <li><img src="img/html_icon.png" alt="icone du langage HTML5" class="img-fluid" width="100" height="100"></li>
+          <li><img src="img/css_icon.png" alt="icone du langage CSS3" class="img-fluid" width="100" height="100"></li>
+          <li><img src="img/js_icon.png" alt="icone du langage JavaScript" class="img-fluid" width="100" height="100">
+          </li>
+          <li><img src="img/php_icon.png" alt="icone du langage PHP" class="img-fluid" width="100" height="100"></li>
+          <li><img src="img/sql_icon.png" alt="icon du langage MySQL" class="img-fluid" width="100" height="100"></li>
+          <li><img src="img/wordpress_icon.png" alt="icone du CMS Wordpress" class="img-fluid" width="100" height="100">
+          </li>
+          <li><img src="img/bootstrap_icon.png" alt="icone du framework Bootstrap" width="100" height="100"></li>
+          <li><img src="img/jquery_icon.png" alt="icone de la librairy JQuery" width="100" height="100"></li>
+          <li><img src="img/angular_icon.png" alt="icone du framework Angular" width="100" height="100"></li>
+          <li><img src="img/symfony_icon.png" alt="icone du framework Symfony" width="100" height="100"></li>
+        </ul>
+      </div>
+    </section>
+    <section class="mesSections" id="menuPortfolio">
+
+      <h2>Portfolio</h2>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/site_boutique-beaute.jpg" class="d-block w-100" alt="site_boutique-beaute">
+            <div class="carousel-caption d-md-block">
+              <h5></h5>
+              <p>
+                Projet de création d'un site à partir d'une maquette afin d'approfondir l'apprentissage du HTML et CSS
+                (n'est pas responive).
+              </p>
+              <div class="visit-button"><a href="site_boutique">Accéder</a></div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/site_boutique-box.jpg" class="d-block w-100" alt="site_boutique">
+            <div class="carousel-caption d-md-block">
+              <h5></h5>
+              <p>L'objectif de ce projet était l'evaluation des connaissances sur HTML5, CSS3, et le Responsive Web
+                Design ( utilisation de Bootstrap ).</p>
+              <div class="visit-button"><a href="boutique_box_responsive">Accéder</a></div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/location_voiture.png" class="d-block w-100" alt="site_location_voiture">
+            <div class="carousel-caption d-md-block">
+              <h5></h5>
+              <p>L'objectif de ce projet était l'évaluation des connaissances en JavaScript/jQuery(creation des
+                animations).</p>
+              <div class="visit-button"><a href="location_voiture">Accéder</a></div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/angular_gateau.jpg" class="d-block w-100" alt="appli_gateau_angular">
+            <div class="carousel-caption d-md-block">
+              <h5></h5>
+              <p>L'objectif de ce petit projet était l'initiation et la familiarisation avec le framework angular.</p>
+              <div class="visit-button"><a href="gateau">Accéder</a></div>
+            </div>
+          </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Précedent</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Suivant</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="mesSections" id="menuParcours">
+      <h2>Parcours</h2>
+      <div class="row">
+        <article>
+          <h3>Expérience</h3>
+          <h4>Développeur Web</h4>
+          <p> <span>Depuis 2021</span> : EGC interim </p>
+          <h4>Ingénieur Matériel (Tunisie)</h4>
+          <p> <span>2015-2019</span> : Compagnie des Phosphates de Gafsa (engins
+            CATERPILLAR, KOMATSU, BEML, ATLAS COPCO..)</p>
+          <h4> Doctorant</h4>
+          <p> <span>2011-2014</span> : Travaux de recherche sur le tungstène et l'hydrogène à Aix-Marseille Université.
+          </p>
+
+        </article>
+        <article>
+          <h3>Formation</h3>
+          <h4>WEBFORCE3</h4>
+          <p><span>2020-2021</span> : développeur web et web mobile.</p>
+          <h4>Université Pierre et Marie Curie (UPMC)</h4>
+          <p><span> 2010-2011</span> : Master physique et application( spécialité sciences de la fusion).</p>
+          <h4>Ecole National d'Ingénieurs de Tunis</h4>
+          <p><span>2009-2010</span> : spécialité : génie mécanique</p>
+          <h4>Institut Préparatoire aux Etudes d'Ingénieurs de Monastir (IPEIM)</h4>
+          <p><span>2004-2006</span> : spécialité : scientifique</p>
+        </article>
+      </div>
+
+    </section>
+
+
+    <section class="mesSections container-fluid" id="menuContact">
+      <h2>Contact</h2>
+
+      <div class="d-flex justify-content-around contact">
+
+        <div class="gmail">
+          <a href="mailto:saidi.othmen@gmail.com"> <img src="img/mailimage.png" alt="icone mail" width="150"
+              height="150"></a>
+        </div>
+        <div class="linkedin">
+          <a href="https://www.linkedin.com/in/othmen-saidi-817685204/"> <img src="img/linkedin.png"
+              alt="icone linkedin" width="150" height="150"></a>
+        </div>
+        <div class="github">
+          <a href="https://github.com/OthmenSaidi"> <img src="img/github.png" alt="icone github" width="150"
+              height="150"> </a>
+        </div>
+      </div>
+
+
+    </section>
+  </main>
+  <footer class="fluid-container">
+    <div class="footer">
+      <div class="copyright-footer">© <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script> Othmen SAIDI.</small></p>
+      </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
+
+
+</body>
+
+</html>
